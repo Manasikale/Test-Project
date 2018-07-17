@@ -1,0 +1,32 @@
+<suite name="Suite">
+
+    <test name="Practice Grouping">
+
+        <groups>
+
+	    <run>
+
+		<include name="google" />
+
+	    </run>
+
+	</groups>
+	 <groups>
+
+	    <run>
+
+		<include name="flipkart" />
+
+	    </run>
+
+	</groups>
+
+	<classes>
+
+	    <class name=" com.test.automation.Flipcart" />
+
+	</classes>
+
+    </test>
+
+</suite>
